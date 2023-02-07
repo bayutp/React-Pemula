@@ -2,16 +2,6 @@ import React from "react";
 import ListContacts from "./contact/ListContact";
 import contacts from "../data/contact";
 import InputContact from "./contact/InputContact";
-
-// function ContactApp() {
-//   return (
-//     <div className="contact-app">
-//       <h1>Daftar Contacts</h1>
-//       <ListContacts contacts={contacts()} />
-//     </div>
-//   );
-// }
-
 class ContactApp extends React.Component {
   constructor(props) {
     super(props);
